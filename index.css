@@ -1,9 +1,11 @@
 body {
     font-family:'Arial';
+    background-color: whitesmoke;
+    color: rgb(255, 105, 105);
 }
 h1 {
     font-family:'Arial Black';
-    color: #1a1a1a;
+    color: #ec098d;
     font-size: 4em;
     background: #F2E6E6;
     line-height: 150px;
@@ -11,22 +13,22 @@ h1 {
     padding-left: 20px;
 }
 h2 {
-    color: #313131;
+    color: #ec098d;
     font-size: 2em;
     margin-top: 50px;
-    border-bottom: 2px red dotted;
+    border-bottom: 2px #ec098d dotted;
     overflow: hidden;
 }
 p {
-    color: #464646;
+    color: #000000;
     line-height: 150%;
     padding-top: 10px;
     padding-left: 60px;
 }
 h3 {
-    color: rgb(114, 4, 4);
+    color: #ec098d;
     font-size: 2em;
     margin-top: 50px;
-    border-bottom: 2px red dotted;
+    border-bottom: 2px #ec098d dotted;
     overflow: hidden;
 }
