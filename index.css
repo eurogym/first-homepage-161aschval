@@ -1,7 +1,9 @@
 body {
     font-family:Arial, Helvetica, sans-serif ;
     background-color: whitesmoke;
-    color: rgb(255, 105, 105);
+    color: rgba(135, 255, 105, 0.589);
+    padding-left: 60px;
+    padding-right: 60px;
 }
 h1 {
     font-family:'Arial Black';
@@ -11,6 +13,14 @@ h1 {
     line-height: 150px;
     margin: 0px 0px 0px 10px;
     padding-left: 20px;
+}
+.intro {
+    font-size: larger;
+    padding-bottom: 10px;
+    background:rgb(223, 194, 194);
+    border-left: solid 25px #ec098d;
+    margin-left: 10px;
+    padding-left: 25px;
 }
 h2 {
     color: #ec098d;
@@ -42,7 +52,7 @@ p a {
 p a:visited {
     color: blue;
 }
-.sidebar {
+.sidebar1 {
     width: 200px;
     float: right;
     background: #ec098d;
@@ -50,4 +60,52 @@ p a:visited {
     margin-left: 15px;
     margin-top: 50px;
     color: white;
+}
+
+.intro {
+    background-color:rgb(223, 194, 194);
+}
+h1{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    max-width: 100%;
+    background-color:rgb(233, 219, 219);
+    padding: 5px;
+    border: 1px solid rgb(233, 219, 219);
+    /* center images */
+    margin-left: auto;
+    margin-right: auto;
+    /* animation */
+    transition: all 0.5s;
+}
+
+h1:hover {
+    /* changes when mouse moves over image */
+    transform: scale(1.01);
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 10px 10px 8px 2px rgb(204, 164, 164);
+}
+
+.sidebar1 {
+    transition: transform 1s;
+}
+
+.sidebar1:hover {
+    transform: rotateY(180deg);
+    box-shadow: none;
+}
+.sidebar1:hover{
+    background-color: #F2E6E6;
+    color: #F2E6E6;
+}
+.sidebar2{
+    width: 200px;
+    float: right;
+    background: #ec098d;
+    padding: 25px;
+    margin-left: 15px;
+    margin-top: 50px;
+    color: white;
+
 }
